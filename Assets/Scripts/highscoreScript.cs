@@ -4,7 +4,7 @@ using UnityEngine;
 public class highscoreScript : MonoBehaviour
 {
     public float highscore;
-    public TextMeshPro highscoreText;
+    public TextMeshProUGUI highscoreText;
 
     public int GetHighscore()
     {
