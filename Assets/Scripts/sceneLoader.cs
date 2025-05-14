@@ -7,4 +7,11 @@ public class sceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void EndGame()
+    {
+        Debug.Log("Game Completed");
+        SceneManager.LoadScene(0);
+        GetComponent<timerScript>().StopTimer();
+    }
 }
