@@ -9,6 +9,7 @@ public class cubeTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GetComponent<sceneLoader>().LoadNextScene();
+            Debug.Log("Player has entered the trigger");
         }
     }
 }
