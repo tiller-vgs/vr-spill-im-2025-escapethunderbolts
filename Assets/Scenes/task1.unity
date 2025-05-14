@@ -6681,7 +6681,7 @@ GameObject:
   - component: {fileID: 415546638}
   - component: {fileID: 415546637}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13620,7 +13620,7 @@ GameObject:
   - component: {fileID: 1112803937}
   - component: {fileID: 1112803936}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: UserInterface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
